@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "getArea.js",
-  "scripts": {
-    "test": "jest"
-  },
+    "scripts": {
+	"start": "node app.js",
+	"test": "jest"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emiliantolo/provaexam.git"
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/emiliantolo/provaexam#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "jest": "^23.6.0"
   }
 }
